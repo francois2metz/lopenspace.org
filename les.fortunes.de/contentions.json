@@ -1,6 +1,7 @@
 {
     "contentions":
     [
-        {"index": "01.001", "content": "Bug corrigé n fois, mais qui revient tel Jésus. PS : c’est vendredi, désolé", "source": "Rémy M.", "date" : "12/01/2010"}
+        {"index": "01.001", "content": "Bug corrigé n fois, mais qui revient tel Jésus. PS : c’est vendredi, désolé", "source": "Rémy M.", "date" : "12/01/2010"},
+        {"index": "01.002", "content": "Pour sauvegarder les feuilles de temps, il faut cliquer sur 'save' plutôt que 'cancler'", "source": "Junior", "date" : "23/01/2010"}
     ]
 }
