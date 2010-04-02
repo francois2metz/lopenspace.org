@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <title>LP Facts</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/> 
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.fortune.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#contention").fortune({file: "./contentions.json", cookieNode: "contentions", metaNodes: {theIndex: "index", theContent: "content", theSource: "source", theDate: "date"}, animate: true});
+
+                $('#another').click(function() {
+                    $("#contention").fortune({file: "./contentions.json", cookieNode: "contentions", metaNodes: {theIndex: "index", theContent: "content", theSource: "source", theDate: "date"}, animate: true});
+                    return false;
+                });
+
+                $('#about').click(function() {
+                    $("#info").slideToggle("fast");
+                    return false;
+                });
+            });
+        </script>
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div id="contention">
+            <div class="index">&nbsp;</div>
+            <div class="content">&nbsp;</div>
+        </div>
+        <div id="nav">
+            <a id="another" href="" title="show another contention">Another</a> &middot;
+            <a id="about" href="" Title="show about info">?</a>
+        </div>
+        <div id="info">
+            <p>Af83 Fortune.</p>
+        </div>
+    </body>
+</html>
