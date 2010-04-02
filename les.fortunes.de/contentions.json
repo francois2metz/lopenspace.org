@@ -7,5 +7,7 @@
         {"index": "01.004", "content": "Le commit est sur la branche, le commit est sur la branch, la branch est dans git, la branche est dans git ...", "source": "_gr_", "date" : "28/01/2010"},
         {"index": "01.005", "content": "HTTP/1.1 500 Not Auto ...", "source": "pas permis de le dire", "date" : "19/03/2010"},
         {"index": "01.006", "content": "HTTP/1.1 404 Pas permission ...", "source": "pas permission de le dire", "date" : "19/03/2010"},
+        {"index": "01.007", "content": "HTTP/1.1 404 code invalide", "source": "", "date" : "25/03/2010"},
+        {"index": "01.008", "content": "HTTP/1.1 504 Mail Exist", "source": "", "date" : "01/04/2010"},
     ]
 }
