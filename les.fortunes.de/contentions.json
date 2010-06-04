@@ -9,5 +9,6 @@
         {"index": "01.006", "content": "HTTP/1.1 404 Pas permission ...", "source": "pas permission de le dire", "date" : "19/03/2010"},
         {"index": "01.007", "content": "HTTP/1.1 404 code invalide", "source": "", "date" : "25/03/2010"},
         {"index": "01.008", "content": "HTTP/1.1 504 Mail Exist", "source": "", "date" : "01/04/2010"},
+        {"index": "01.009", "content": "Moi la seule que je lui proposerais en agile c'est un cercueil en bois", "source": "Thierry", "date" : "04/06/2010"},
     ]
 }
